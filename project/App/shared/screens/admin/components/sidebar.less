@@ -1,0 +1,28 @@
+.sider {
+  width: 180px;
+  position: absolute;
+  overflow: auto;
+  padding-bottom: 24px;
+}
+.menu {
+    background-color: rgba(0, 0, 0, 0);
+    :global(.ant-menu-item-selected) {
+        background-color: #F5F5DC;
+    }
+    :global(.ant-menu-submenu-title) {
+        height: 80px !important;
+        line-height: 80px !important;
+    }
+    :global(.ant-menu-sub) {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+.divider {
+    background-color: #858585 !important;
+    margin: 0px !important;
+}
+.menuItem {
+    height: 80px !important;
+    line-height: 80px !important;
+    border-right: 1px solid #C9C9C9 !important;
+}

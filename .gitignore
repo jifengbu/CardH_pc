@@ -1,0 +1,16 @@
+.DS_Store
+*.log
+logs
+*.pid
+pids
+*.seed
+*.idea
+.idea
+.tmp
+node_modules
+/project/build
+/project/public
+/dist/client/*
+!/dist/client/package.json
+/dist/server/*
+!/dist/server/package.json
